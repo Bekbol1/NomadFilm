@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.nomadfilm_1.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"
+        />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.nomadfilm_1.ui.dashboard.DashboardFragment"
+        android:label="@string/tittle_search"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.nomadfilm_1.ui.notifications.NotificationsFragment"
+        android:label="@string/tittle_profile"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_serial_sake"
+        android:name="com.example.nomadfilm_1.serial_sake"
+        android:label="Саке"
+        tools:layout="@layout/fragment_serial_sake" />
+
+    <fragment
+        android:id="@+id/gg_show_fragment"
+        android:name="com.example.nomadfilm_1.serial_gg_show"
+        android:label="GG Show"
+        tools:layout="@layout/fragment_serial_gg_show" />
+
+    <fragment
+        android:id="@+id/navigation_chernyi_dvor"
+        android:name="com.example.nomadfilm_1.serial_chernyi_dvor"
+        android:label="Черный двор"
+        tools:layout="@layout/fragment_serial_chernyi_dvor" />
+
+    <fragment
+        android:id="@+id/navigation_profile_entry"
+        android:name="com.example.nomadfilm_1.ProfileFragment"
+        android:label="@string/tittle_profile"
+        tools:layout="@layout/fragment_profile_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_5_32"
+        android:name="com.example.nomadfilm_1.serial_5_32"
+        android:label="5:32"
+        tools:layout="@layout/fragment_serial_5_32" />
+
+    <fragment
+        android:id="@+id/navigation_comedy"
+        android:name="com.example.nomadfilm_1.genre_comedy"
+        tools:layout="@layout/fragment_genre_comedy" />
+    <fragment
+        android:id="@+id/navigation_detective"
+        android:name="com.example.nomadfilm_1.genre_detective"
+        tools:layout="@layout/fragment_genre_detective" />
+    <fragment
+        android:id="@+id/navigation_criminal"
+        android:name="com.example.nomadfilm_1.genre_criminal"
+        tools:layout="@layout/fragment_genre_criminal" />
+    <fragment
+        android:id="@+id/navigation_drame"
+        android:name="com.example.nomadfilm_1.genre_drame"
+        tools:layout="@layout/fragment_genre_drame" />
+
+    <fragment
+        android:id="@+id/navigation_salem_men"
+        android:label="Салем мен Нурлан"
+        android:name="com.example.nomadfilm_1.serial_salem_men"
+        tools:layout="@layout/fragment_serial_salem_men" />
+
+    <fragment
+        android:id="@+id/navigation_ayash"
+        android:label="Аяш"
+        android:name="com.example.nomadfilm_1.film_ayash"
+        tools:layout="@layout/fragment_film_ayash" />
+
+    <fragment
+        android:id="@+id/navigation_sheker"
+        android:label="Шекер"
+        android:name="com.example.nomadfilm_1.serial_sheker"
+        tools:layout="@layout/fragment_serial_sheker" />
+
+    <fragment
+        android:id="@+id/navigation_kurmanjan"
+        android:label="Курманжан-Датка"
+        android:name="com.example.nomadfilm_1.film_kurmanjan_datka"
+        tools:layout="@layout/fragment_film_kurmanjan_datka" />
+
+    <fragment
+        android:id="@+id/navigation_belyi_parahod"
+        android:label="Белый параход"
+        android:name="com.example.nomadfilm_1.film_belyi_parahod"
+        tools:layout="@layout/fragment_film_belyi_parahod" />
+
+    <fragment
+        android:id="@+id/navigation_materinskoe"
+        android:label="Материнское поле"
+        android:name="com.example.nomadfilm_1.film_materinckoe_pole"
+        tools:layout="@layout/fragment_film_materinckoe_pole" />
+
+    <fragment
+        android:id="@+id/navigation_pervyi_uchitel"
+        android:label="Первый учитель"
+        android:name="com.example.nomadfilm_1.film_pervyi_uchitel"
+        tools:layout="@layout/fragment_film_pervyi_uchitel" />
+
+    <fragment
+        android:id="@+id/navigation_pesnya_dreva"
+        android:label="Песнь древа"
+        android:name="com.example.nomadfilm_1.film_pesnya_dreva"
+        tools:layout="@layout/fragment_film_pesnya_dreva" />
+
+    <fragment
+        android:id="@+id/navigation_akyrky_sabak"
+        android:label="Последний урок"
+        android:name="com.example.nomadfilm_1.serial_akyrky_sabak"
+        tools:layout="@layout/fragment_serial_akyrky_sabak" />
+
+    <fragment
+        android:id="@+id/navigation_agai"
+        android:label="Агай"
+        android:name="com.example.nomadfilm_1.film_agai"
+        tools:layout="@layout/fragment_film_agai" />
+
+    <action
+        android:id="@+id/action_homeFragment_to_filmDetailsFragment"
+        app:destination="@id/navigation_5_32" />
+
+
+</navigation>
+
+

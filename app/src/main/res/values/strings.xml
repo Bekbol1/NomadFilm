@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">NomadFilm</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tittle_glavnoe">Главное</string>
+    <string name="tittle_search">Поиск</string>
+    <string name="tittle_profile">Профиль</string>
+    <string name="tittle_app_bar_home">Актуальное</string>
+    <string name="profile">Профиль</string>
+    <string name="search">Поиск</string>
+    <string name="Glavnoe">Главное</string>
+    <string name="clickThisProfile">Нажмите сюда</string>
+    <string name="forgetPassProfile">Забыли пароль?</string>
+    <string name="entryPassProfile">Введите пароль</string>
+    <string name="entryEmailProfile">Введите вашу почту</string>
+    <string name="entryProfile">Войти</string>
+    <string name="searchFilmsSerial">Поиск фильмов и сериалов</string>
+    <string name="filmsSerials">Фильмы, сериалы</string>
+    <string name="Comedy">Комедия</string>
+    <string name="Detective">Детектив</string>
+    <string name="Drame">Драма</string>
+    <string name="Criminal">Криминал</string>
+    <string name="Genres">Жанры</string>
+    <string name="advice_to_look">Советуем посмотреть</string>
+    <string name="actual_today">Актуальное на сегодня</string>
+    <string name="titleChernyiDvor">Черный двор</string>
+    <string name="title_chernyi_dvor">Чёрный двор</string>
+    <string name="title_pervyi_uchitel">Первый учитель</string>
+    <string name="title_pervui_uchitel">Первый учитель</string>
+    <string name="title_pesn_dreva">Песнь древа</string>
+    <string name="title_poslednii_urok">Последний урок</string>
+    <string name="title_belui_parahod">Белый параход</string>
+    <string name="title_kurmanjan_datka">Курманжан-Датка</string>
+    <string name="title_materinskoe_pole">Материнское поле</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_gg_show">GG Show</string>
+    <string name="title_sake">Саке</string>
+    <string name="watch">Смотреть</string>
+    <string name="trailer">Трейлер</string>
+    <string name="SalemMenNurlan">Салем мен Нурлан</string>
+    <string name="title_sheker">Шекер</string>
+    <string name="title_ayash">Аяш</string>
+    <string name="name_profile">Имя профиля</string>
+</resources>

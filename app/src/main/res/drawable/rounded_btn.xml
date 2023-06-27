@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#00000000" /> <!-- Цвет фона, здесь используется прозрачность -->
+    <corners android:radius="8dp" /> <!-- Задаем радиус углов в половину ширины/высоты для создания круга -->
+    <stroke
+        android:color="@color/asfalt_App_Bar"
+        android:width="6dp" /> <!-- Цвет и ширина обводки (можно изменить по своему усмотрению) -->
+</shape>
